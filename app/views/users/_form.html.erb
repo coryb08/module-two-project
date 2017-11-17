@@ -13,27 +13,21 @@
 
 
   <div class="field">
-    <%= form.label :email %>
+
     <br>
-    <%= form.text_field :email, id: :user_email %>
+
+    <%= form.text_field :email, {placeholder: 'edit email:', class: 'transparent-input focus', size:59}  %>
   </div>
 <br>
 
   <div class="field">
-    <%= form.label :password %>
-    <br>
-    <%= form.text_field :password, id: :user_password %>
+
+    <%= form.text_field :password, {placeholder: 'edit password:', class: 'transparent-input focus', size:59}  %>
   </div>
 <br>
-
-  <div class="field">
-    <%= form.label :name %>
-    <br>
-    <%= form.text_field :name, id: :user_name %>
-  </div>
 
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "update", {class: "button45"}%>
   </div>
 <% end %>
