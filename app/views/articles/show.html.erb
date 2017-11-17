@@ -47,12 +47,14 @@
             </div>
 
 
-  <style>
 
 
+<br><br>
 
+
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <%=link_to 'Edit', edit_user_article_path(@article.user, @article), class:"headsss3" %>
+  <%= link_to 'Back', user_articles_path, class:"headsss3" %>
+  <%=link_to "New outfit", new_user_outfit_path(session[:user_id]), class:"headsss3"%>
+<br><br><br><br>
   </body>
   </html>
-  <%= link_to 'Edit', edit_user_article_path(@article.user, @article) %> |
-  <%= link_to 'Back', user_articles_path %> |
-  <%=link_to "New outfit", new_user_outfit_path(session[:user_id])%>

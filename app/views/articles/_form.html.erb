@@ -13,23 +13,25 @@
   <% end %>
   <div >
 
-    <%= form.text_field :description, id: :article_description, placeholder: 'description', class: 'transparent-input focus' %>
+    <%= form.text_field :description, id: :article_description, placeholder: 'description:', class: 'transparent-input focus' %>
   </div>
 <br>
 <%categories=["top","bottom","outerwear","shoes","accessory"]%>
 <br>
+<div class="field">
+    <%= form.text_field :color, id: :article_color, placeholder: 'color:', class: 'transparent-input focus' %>
+
+</div>
+<br>
   <div class="field">
     <%= form.label :category, class:"checkboxstuff" %>
-
+<br>
     <%= form.select(:category, options_for_select([["Top", "top"],["Bottom", "bottom"],["Outerwear", "outerwear"],["Accessory", "accessory"],["Shoes", "shoes"]])) %>
 <br>
   </div>
 <br>
-  <div class="field">
-      <%= form.text_field :color, id: :article_color, placeholder: 'description', class: 'transparent-input focus' %>
 
-  </div>
-  <br>
+
 
   <div class="field">
     <%= form.label :summer, class:"checkboxstuff" %>
