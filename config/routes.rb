@@ -11,5 +11,6 @@ Rails.application.routes.draw do
 
   get '/logout', to: "sessions#destroy"
   get '/about', to: "static#about"
+  get '/contact', to: "static#contact"
 
 end

@@ -136,25 +136,28 @@ h1 {
 
 
 <br>
- &nbsp;<a class="newbutt" href=<%=new_user_article_path%>>
+ &nbsp;<a class="newbutt" href=<%=new_user_outfit_path%>>
 <div class="button45">
-  Create a new outfit
+  Create a New Outfit
 </div>
 </a>
 
 
+ &nbsp;<a class="newbutt" href=<%=new_user_article_path%>>
+<div class="button45">
+  Add a New Article
+</div>
+</a>
+
+
+
 <%@user_articles = Article.all.where(user_id:session[:user_id])%>
 <!-- Portfolio Gallery Grid -->
-
 <div class="row">
 <% @user_articles.each do |article| %>
-
   <div class="column <%=article.category%>">
-
     <div class="content">
-      <%=  link_to user_article_path(article.user.id, article.id) do%>
       <img id="myImg" src="<%= article.image.url %>" alt="Article name" style="width:100%">
-      <% end %>
       <%qualities=""%>
       <%if article.winter && article.summer%>
           <%qualities<<"All Year"%>
@@ -163,16 +166,13 @@ h1 {
         <%elsif article.summer%>
           <%qualities<<"Summer Wear"%>
         <%end%>
-
       <h4><%=article.description%></h4>
       <h4><%=article.color%>, <%=qualities%></h4>
-      <p><%= link_to 'Show', user_article_path(article.user.id, article.id) %></p>
-      <p><%= link_to 'Edit', edit_user_article_path(article.user, article) %></p>
-      <p><%=link_to "Create a new outfit", new_user_outfit_path(session[:user_id])%></p>
+      <p><%= link_to 'Show', user_article_path(article.user.id, article.id) %> |
+      <%= link_to 'Edit', edit_user_article_path(article.user, article) %> |
+      <%=link_to "Create a New Outfit", new_user_outfit_path(session[:user_id])%></p>
     </div>
-
   </div>
-
 <% end %>
 
 <!-- END GRID -->

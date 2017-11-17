@@ -8,11 +8,11 @@
 <div class="col-md-8">
 <div class="form-group">
    <br>
-   <%= f.text_field :email, {placeholder: 'new user email', class: 'transparent-input focus', size:59} %>
+   <%= f.text_field :email, {placeholder: 'new user email', class: 'transparent-input focus', size:50} %>
    <br>
    <br>
    <br>
-   <%= f.password_field :password, {placeholder: 'new user password', class: 'transparent-input focus', size:59} %><br></br>
+   <%= f.password_field :password, {placeholder: 'new user password', class: 'transparent-input focus', size:50} %><br></br>
    <%= f.button "Sign up", {class: "button"} %>
    <br>
    <% end %>
@@ -24,11 +24,11 @@
    <br>
    <br>
    <%= form_tag "/login" do %>
-   <%= text_field_tag "user[email]", nil, placeholder: 'existing user email', class: 'transparent-input focus', size:59 %>
+   <%= text_field_tag "user[email]", nil, placeholder: 'existing user email', class: 'transparent-input focus', size:50 %>
    <br>
    <br>
    <br>
-   <%= password_field_tag "user[password]", nil, placeholder: 'existing user password', class: 'transparent-input focus', size:59 %><br></br>
+   <%= password_field_tag "user[password]", nil, placeholder: 'existing user password', class: 'transparent-input focus', size:50 %><br></br>
    <%= button_tag "Login", class: "button" %>
    <% end %>
 </div>
