@@ -1,0 +1,374 @@
+body,
+html,
+h3,
+ul {
+	height: 100%;
+}
+
+.bg {
+	background-image: url("Mens-Closet-Orgaznier-System.jpg");
+	height: 100%;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.funfun {
+	image: url("logo.jpeg");
+	width: 20%;
+	height: 20%;
+}
+.mask {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	opacity: 0.2;
+	z-index: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: white;
+	opacity: 0.8;
+	font-style: italic;
+	font-weight: 100;
+	font-family: 'Cormorant', serif;
+	letter-spacing: 4px
+}
+
+.checkboxstuff {
+	color: white;
+	opacity: 0.8;
+	font-style: italic;
+	font-weight: 100;
+	font-family: 'Cormorant', serif;
+	letter-spacing: 4px
+}
+
+div.moveright {
+	margin-left: 20px;
+
+}
+
+
+div.moveright2 {
+	margin-left: 100px;
+
+}
+
+div.backwhite{
+	background-color: white;
+	z-index: 0;
+	position: fixed;
+}
+
+
+
+div.anyout {
+color: white;
+opacity: 0.8;
+font-style: italic;
+font-weight: 100;
+font-family: 'Cormorant', serif;
+letter-spacing: 4px;
+margin-left: 60px;
+}
+
+div.moverightright {
+	margin-left: 150px;
+	margin-bottom: 50px;
+}
+
+* {
+	font-size: 101%;
+	letter-spacing: 2px
+}
+
+.on-top {
+	z-index: 1;
+	position: absolute;
+}
+
+.box {
+	color: white
+}
+
+input:focus {
+	outline: none !important;
+	box-shadow: 0 0 0;
+	border-bottom: white;
+	padding: 3px;
+	font-family: 'Palatino Linotype', 'Book Antiqua', serif;
+	letter-spacing: 3px
+}
+
+.button {
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	padding: 10px 20px !important;
+	font-weight: 200;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.0);
+	transition-duration: 0.4s;
+	color: white;
+	letter-spacing: 8px
+}
+
+.button45 {
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	padding: 10px 20px !important;
+	font-weight: 200;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.0);
+	transition-duration: 0.4s;
+	color: white;
+	letter-spacing: 3px;
+	border-radius: 0px;
+}
+
+a:link {
+	background: rgba(0,0,0,0);
+	color: white;
+}
+a::visited {
+	color: white;
+
+}
+
+a:hover{
+	color: white;
+}
+
+.radiobutt {
+	display: inline;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+	.radiobutt input {
+	  position: absolute;
+	  opacity: 0;
+	}
+
+	.radiobuttcheck {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.button2 {
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	text-align: center;
+	width: 13%;
+	padding: 10px 20px !important;
+	font-weight: 100;
+
+	background-color: rgba(0, 0, 0, 0.0);
+	transition-duration: 0.4s;
+	color: gray;
+	letter-spacing: 2px
+}
+
+.button456{
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	padding: 10px 20px !important;
+	font-weight: 200;
+
+
+	background-color: rgba(0, 0, 0, 0.0);
+	transition-duration: 0.4s;
+	color: white;
+	letter-spacing: 3px
+}
+
+.imagestuff{
+	transform:scale(20px,10px);
+}
+
+
+.headsss {
+	color: white;
+	font-size: 26pt;
+	weight: 100;
+	opacity: 0.8;
+	font-family: 'Didot', serif;
+	letter-spacing: 2px;
+	margin-left: 25px;
+}
+
+.headsss2{
+
+	font-weight: 100;
+	font-size: 10pt;
+  font-family: 'Nunito', sans-serif;
+	margin-left: 25px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+	margin-bottom: 30px;
+}
+.headsss25{
+	color: white;
+
+	font-weight: 100;
+	font-size: 26pt;
+  font-family: 'didot', sans-serif;
+	margin-left: 15px;
+  letter-spacing: 2px;
+
+}
+
+.headsss3{
+
+	font-weight: 100;
+	font-size: 12pt;
+	color: white;
+  font-family: 'Cormorant', serif;
+	margin-left: 42px;
+  letter-spacing: 3px;
+	opacity: 0.8;
+
+}
+
+.headsss3:focus,
+.headsss3:hover {
+ background-color: rgba(0,0,0,0);
+ color: white;
+ background-image: linear-gradient( to right, gray, gray);
+
+ background-repeat: repeat-x;
+ background-position: 0 100%;
+ -webkit-background-size: 50% 1px;
+ background-size: 50% 1px;
+}
+
+.headsss3:visited {
+	font-weight: 100;
+	font-size: 12pt;
+	color: white;
+  font-family: 'Cormorant', serif;
+	margin-left: 50px;
+  letter-spacing: 3px;
+	opacity: 0.8;
+}
+/*
+.bordering{
+	border-right: 2px solid gray;
+	margin-left:
+
+
+}*/
+
+
+.button:hover {
+	background-color: rgba(121, 121, 134, 0.1);
+	border-color: rgba(0, 0, 0, 0);
+	transition-duration: 0.2s;
+	color: white !important;
+}
+
+
+
+.headings {
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+	text-indent: 200px
+}
+
+.headings1 {
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+	text-indent: 425px;
+}
+
+input.transparent-input {
+	background-color: rgba(0, 0, 0, 0) !important;
+	border-bottom: white;
+	color: white;
+	font-weight: 500;
+	font-family: 'Palatino Linotype', 'Book Antiqua', serif;
+	letter-spacing: 4px border:0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid white;
+}
+
+input.transparent-input2 {
+	background-color: rgba(0, 0, 0, 0) !important;
+	border-bottom: white;
+	color: white;
+	font-weight: 500;
+	font-family: 'Palatino Linotype', 'Book Antiqua', serif;
+	letter-spacing: 4px border:0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid white;
+	width: 45%;
+}
+
+.transparent-input3 {
+	color: white;
+	opacity: 0.8;
+	font-style: italic;
+	font-weight: 100;
+	font-family: 'Cormorant', serif;
+	letter-spacing: 4px
+}
+
+
+.headsss33{
+
+	font-weight: 100;
+	font-size: 16pt;
+	color: white;
+  font-family: 'Cormorant', serif;
+	margin-left: 160px;
+  letter-spacing: 3px;
+	opacity: 0.7;
+
+}
+
+.headsss334{
+
+	font-weight: 100;
+	font-size: 12pt;
+	color: white;
+  font-family: 'Cormorant', serif;
+
+  letter-spacing: 3px;
+	opacity: 0.7;
+
+}
+
+
+strong, div.move {
+	margin-left: 20px;
+	size: 4pt;
+}

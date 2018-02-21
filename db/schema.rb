@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20171116014145) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "article_outfits", force: :cascade do |t|
     t.integer "outfit_id"
     t.integer "article_id"
@@ -31,7 +34,6 @@ ActiveRecord::Schema.define(version: 20171116014145) do
     t.string "image_content_type"
     t.integer "image_file_size"
     t.datetime "image_updated_at"
-    t.string "category"
     t.string "description"
   end
 

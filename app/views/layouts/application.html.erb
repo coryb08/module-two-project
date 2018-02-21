@@ -9,6 +9,8 @@
       <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
       <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"> </script>
       <!-- Optional Bootstrap theme -->
       <!-- <link rel="stylesheet" href="app/assets/stylesheets/bootstrapstyles.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
    </head>
@@ -29,7 +31,7 @@
               <% if session[:user_id] != nil %>
                <li class="nav-item active">
 
-                 <a class="nav-link funfun" href="/users/<%=session[:user_id]%>"><img src="logo.jpeg" alt="Profile"><span class="sr-only">(current)</span></a>
+                 <a class="nav-link funfun" href="/users/<%=session[:user_id]%>">Profile<span class="sr-only">(current)</span></a>
                  <%end%>
 
                </li>
